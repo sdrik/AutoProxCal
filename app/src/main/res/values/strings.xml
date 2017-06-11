@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name" translatable="false">AutoProxCal</string>
+    <string name="button_start">Test</string>
+    <string name="button_stop">Stop</string>
+    <string name="state_label">Current value</string>
+    <string name="onboot_label">Calibrate on boot (needs root)</string>
+    <string name="button_calibrate">Calibrate now (needs root)</string>
+    <string name="calibration_success">Proximity sensor successfully calibrated</string>
+    <string name="calibration_failure">Proximity sensor calibration failure</string>
+    <string name="onboot_logmsg">Calibrating on boot</string>
+    <string name="sensor_name_label">Name</string>
+    <string name="sensor_vendor_label">Vendor</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+</resources>
