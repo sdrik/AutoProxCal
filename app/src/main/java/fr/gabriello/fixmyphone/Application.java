@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package fr.gabriello.autoproxcal;
+package fr.gabriello.fixmyphone;
 
 import android.content.Context;
 import android.os.Handler;

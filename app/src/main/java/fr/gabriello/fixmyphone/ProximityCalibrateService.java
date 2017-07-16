@@ -1,4 +1,4 @@
-package fr.gabriello.autoproxcal;
+package fr.gabriello.fixmyphone;
 
 import android.app.IntentService;
 import android.content.BroadcastReceiver;

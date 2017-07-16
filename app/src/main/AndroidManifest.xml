@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="fr.gabriello.autoproxcal">
+    package="fr.gabriello.fixmyphone">
 
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.VIBRATE" />
 
     <application
-        android:name="fr.gabriello.autoproxcal.Application"
+        android:name="fr.gabriello.fixmyphone.Application"
         android:allowBackup="true"
         android:icon="@mipmap/sensor"
         android:label="@string/app_name"
@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".MainActivity">
+        <activity android:name="fr.gabriello.fixmyphone.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -22,7 +22,7 @@
         </activity>
 
         <receiver
-            android:name=".ProximityCalibrateService$BootCompletedReceiver"
+            android:name="fr.gabriello.fixmyphone.ProximityCalibrateService$BootCompletedReceiver"
             android:enabled="true"
             android:exported="true">
             <intent-filter>
@@ -32,7 +32,7 @@
         </receiver>
 
         <service
-            android:name=".ProximityCalibrateService">
+            android:name="fr.gabriello.fixmyphone.ProximityCalibrateService">
         </service>
 
     </application>

@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name" translatable="false">AutoProxCal</string>
+    <string name="app_name" translatable="false">FixMyPhone</string>
     <string name="button_start">Test</string>
     <string name="button_stop">Stop</string>
     <string name="state_label">Current value</string>

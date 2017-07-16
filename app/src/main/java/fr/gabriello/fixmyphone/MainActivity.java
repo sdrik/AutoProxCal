@@ -1,4 +1,4 @@
-package fr.gabriello.autoproxcal;
+package fr.gabriello.fixmyphone;
 
 import android.content.Intent;
 import android.graphics.Color;

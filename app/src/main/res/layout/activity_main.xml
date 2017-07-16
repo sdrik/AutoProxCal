@@ -5,7 +5,7 @@
     android:id="@+id/mainLayout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="fr.gabriello.autoproxcal.MainActivity">
+    tools:context="fr.gabriello.fixmyphone.MainActivity">
 
     <ToggleButton
         android:id="@+id/testButton"
@@ -35,7 +35,7 @@
 
     <fragment
         android:id="@+id/prefsFragment"
-        android:name="fr.gabriello.autoproxcal.MainActivity$PrefsFragment"
+        android:name="fr.gabriello.fixmyphone.MainActivity$PrefsFragment"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
