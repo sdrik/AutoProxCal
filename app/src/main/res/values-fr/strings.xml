@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="state_label">Valeur courante</string>
     <string name="button_start">Tester</string>
     <string name="button_stop">Arrêter</string>
     <string name="onboot_label">Calibration au démarrage (nécessite le root)</string>
     <string name="button_calibrate">Calibrer maintenant</string>
     <string name="calibration_success">Le capteur de proximité a été calibré</string>
     <string name="calibration_failure">Echec de calibration du capteur de proximité</string>
-    <string name="onboot_logmsg">Calibration au démarrage</string>
     <string name="sensor_name_label">Modèle</string>
     <string name="sensor_vendor_label">Fabricant</string>
 </resources>
