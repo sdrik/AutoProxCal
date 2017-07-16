@@ -49,6 +49,7 @@ public class Application extends android.app.Application {
             ((Application) context).runInApplicationThread(new Runnable() {
                 @Override
                 public void run() {
+                    //noinspection WrongConstant
                     Toast.makeText(c, m, d).show();
                 }
             });
