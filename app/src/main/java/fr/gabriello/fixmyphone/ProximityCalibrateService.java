@@ -59,7 +59,8 @@ public class ProximityCalibrateService extends IntentService {
 
         @Override
         public void onReceive(Context context, Intent intent) {
-            if (context == null) return;
+            if (context == null || intent == null || !Intent.ACTION_BOOT_COMPLETED.equals(intent.getAction()))
+                return;
             SharedPreferences settings = PreferenceManager.getDefaultSharedPreferences(context);
             if ((settings != null) && settings.getBoolean(PREFS_CALIBRATE_ON_BOOT, false)) {
                 context.startService(new Intent(context, ProximityCalibrateService.class));
