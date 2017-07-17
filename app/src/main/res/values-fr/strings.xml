@@ -8,4 +8,7 @@
     <string name="calibration_failure">Echec de calibration du capteur de proximité</string>
     <string name="sensor_name_label">Modèle</string>
     <string name="sensor_vendor_label">Fabricant</string>
+    <string name="reset_radio">RAZ radio</string>
+    <string name="reset_radio_success">Radio reset successful</string>
+    <string name="reset_radio_failure">Radio reset failed</string>
 </resources>

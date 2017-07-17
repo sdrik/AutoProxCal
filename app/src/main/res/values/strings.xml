@@ -8,6 +8,9 @@
     <string name="calibration_failure">Proximity sensor calibration failure</string>
     <string name="sensor_name_label">Name</string>
     <string name="sensor_vendor_label">Vendor</string>
+    <string name="reset_radio">Reset radio</string>
+    <string name="reset_radio_success">Radio reset successful</string>
+    <string name="reset_radio_failure">Radio reset failed</string>
 
     <!-- TODO: Remove or change this placeholder text -->
 </resources>
